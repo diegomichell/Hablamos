@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hablamos</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="resources/bootstrap/css/bootstrap.min.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+</head>
+<body>
+
+	<header>
+		<span>Hablamos<small><a id="me" href="https://github.com/ivanevil">by Diego Ivan Pérez Michel</a></small></span>
+	</header>
+
+	<section class="container">
+		
+		<div class="chat-box">
+			<div class="status-bar">
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-md-9">
+					<div class="messages-box"/>
+				
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="info-box">
+						<div class="user">
+							<label>Tu:</label>
+							<br/>
+							<label id="userName">{usuario}</label>
+						</div>
+					</div>
+				</div>	
+			</div>
+			
+
+			<div class="input-box">
+				<div class="row">
+					<div class="col-md-10">
+						<input type="text" disabled="true" class="form-control" placeholder="Quiero hablar" id="chatInput"/>
+					</div>
+					<div class="col-md-2">
+						<button id="sendBtn" disabled="true" class="btn btn-primary glyphicon glyphicon-pencil btn-send"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+		
+	</footer>
+
+	<script type="text/javascript" src="resources/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="resources/jquery/jquery-ui.min.js"></script>
+	<script src="resources/js/fancywebsocket.js"></script>
+	<script type="text/javascript" src="resources/js/app.js"></script>
+</body>
+</html>
