@@ -71,7 +71,7 @@ $(document).ready(function(){
 	}
 
 	// WebSocket Client, lo tome de un proyecto open source.
-	var Server = new FancyWebSocket('wss://hablamos.herokuapp.com:9300');
+	var Server = new FancyWebSocket('wss://hablamos.herokuapp.com');
 
 	//Let the user know we're connected
 	Server.bind('open', function() {
